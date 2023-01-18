@@ -1,6 +1,4 @@
 
-import './App.css';
-
 import Navbar from './components/JS/Navbar';
 import Footer from './components/JS/Footer' ;
 
@@ -10,11 +8,11 @@ import "./components/CSS/footerstyle.css" ;
 import "./components/CSS/home.css"; 
 import "./components/CSS/review.css"; 
 import "./components/CSS/recommendation.css" ;
-
-
+import "./components/CSS/products.css"; 
 import Home from './components/JS/Pages/Home';
 import Review from './components/JS/Pages/Review.page';
 import Recommend from './components/JS/Pages/Recommend.page'; 
+import Dell from './components/JS/Products/dell';
 
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 
@@ -29,6 +27,7 @@ function App() {
           <Route exact path="/" element ={<Home/>}> </Route>
           <Route  path="/review" element ={<Review/>}></Route>
           <Route  path="/recommendation" element ={<Recommend/>}></Route>
+          <Route  path="/products/dell" element ={<Dell/>}></Route>
         </Routes>
         </div>
         <Footer/>

@@ -1,9 +1,8 @@
 import React from "react";
 function Recommend (){
     return (
-        <div className="Recommend">
+        <div className="container">
             <h1>Recommendation Page</h1>
-
 
         </div>
 

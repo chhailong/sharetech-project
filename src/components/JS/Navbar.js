@@ -3,7 +3,6 @@ import { Button } from './Pages/Button.sign.up';
 import { Link } from 'react-router-dom';
 
 
-
 function Navbar() {
   // const [click, setClick] = useState(false);
 
@@ -76,11 +75,10 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button className ="button-sign-up" buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
     </>
   );
 }
-
 export default Navbar;
