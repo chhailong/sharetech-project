@@ -12,9 +12,9 @@ import "./components/CSS/review.css";
 import "./components/CSS/recommendation.css" ;
 
 
-import Home from './components/JS/Pages/Home';
-import Review from './components/JS/Pages/Review.page';
-import Recommend from './components/JS/Pages/Recommend.page'; 
+import Home from './components/Pages/Home';
+import Review from './components/Pages/Review.page';
+import Recommend from './components/Pages/Recommend.page'; 
 
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 

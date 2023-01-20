@@ -1,19 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Pages/Button.sign.up';
+import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
-
-
 function Navbar() {
-  // const [click, setClick] = useState(false);
 
-  // const handleClick = () => setClick(!click);
-  // const closeMobileMenu = () => setClick(false);
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  // const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -22,7 +17,6 @@ function Navbar() {
       setButton(true);
     }
   };
-
 
   useEffect(() => {
     showButton();
@@ -39,7 +33,7 @@ function Navbar() {
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
@@ -70,8 +64,7 @@ function Navbar() {
               <Link
                 to="/sign-up"
                 className='nav-links-mobile'
-                onClick={handleClick}
-              >
+                onClick={handleClick} >
                 Sign Up
               </Link>
             </li>
