@@ -1,6 +1,7 @@
 
 import Navbar from './components/JS/Navbar';
 import Footer from './components/JS/Footer' ;
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./components/CSS/navbarstyle.css";
 import "./components/CSS/buttonstyle.css"
