@@ -1,19 +1,59 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import img1 from '../../Images/image1-1.jpg';
+import img2 from '../../Images/image1-2.jpg';
+import img3 from '../../Images/image1-3.jpg';
+import img4 from '../../Images/image1-4.jpg';
+import img5 from '../../Images/image1-5.jpg';
 
 function Cards() {
-    return(
-        <>
-            <div className="card">
-                <img src="https://i.picsum.photos/id/999/200/150.jpg?hmac=kRjkUI_P2wfuXrcvkYOk0Bv_P6vNob9xClBu1BlaYCo" alt="" className="card-img-top"/>
-                <div className="card-body">
-                    <h3 className="card-title">M1 Pro Max</h3>
-                    <p className="card-text">The Best laptop for contain creater and Developer</p>
-                    <Link to="/review" className="btn btn-light">Review</Link>
-                </div>
+  return (
+    <>
+        <div class="card">
+            <img src={img1} class="card-img-top" alt=""/>
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-        </>
-    );
+        </div>
+
+        <div class="card">
+            <img src={img2} class="card-img-top" alt=""/>
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src={img3} class="card-img-top" alt=""/>
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src={img4} class="card-img-top" alt=""/>
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src={img5} class="card-img-top" alt=""/>
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </>
+  );
 }
 
-export default Cards;
+export default Cards

@@ -1,11 +1,14 @@
 import React from "react";
 import Carousel from "../JS/Carousel";
-import Hero from "../JS/Hero";
+import "../../App.css"
 
-function Home (){
-    return(
+function Review (){
+    return (
         <>
-            <Hero/>
+            <div className="review">
+                <h1>Review Page</h1>
+            </div>
+
             <div>
                 <h5>Top products</h5>
                 <Carousel/>
@@ -20,9 +23,7 @@ function Home (){
                 <h5>Design</h5>
                 <Carousel/>
             </div>
-        
-            <button type="button" class="btn btn-primary justify-content-center">See more</button>
         </>
-    )
+    );
 }
-export default Home; 
+export default Review;
