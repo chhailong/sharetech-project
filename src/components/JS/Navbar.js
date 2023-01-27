@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Pages/Button.sign.up';
 import { Link } from 'react-router-dom';
+import "../CSS/navbarstyle.css" ; 
 
 
 function Navbar() {
@@ -74,12 +75,18 @@ function Navbar() {
                 Sign Up
               </Link>
             </li>
-          </ul>
 
-          {button && <Button className ="button-sign-up" buttonStyle=''>SIGN UP</Button>}
+          </ul>
+          {button && <Button className ="button-sign-up" buttonStyle=''>Search</Button>}
+
+         
+
+          
+                                       
         </div>
       </nav>
     </>
   );
 }
 export default Navbar;
+

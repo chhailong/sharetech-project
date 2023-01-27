@@ -1,9 +1,11 @@
 import React from "react"  ;
 import "../../CSS/products.css"; 
-import mac from "../../../images/mac.jpg"; 
-import LG from "../../../images/LGGram1.webp"; 
+// import gram from "../../../images/LGGram.jpg"; 
+import gram from "../../../images/LGgram.jpg" ;
+import gram1 from "../../../images/LGGram1.webp"; 
+import gram2 from "../../../images/LGGram2.webp"; 
 
-function Dell (){
+function LG_Gram (){
     return (
         <>
         <div className="container">
@@ -20,13 +22,13 @@ function Dell (){
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                        <img src={mac} className="d-block w-100" alt="..."/>
+                        <img src={gram} className="d-block w-100" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                        <img src={LG} className="d-block w-100" alt="..."/>
+                        <img src={gram1} className="d-block w-100" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                        <img src={mac} className="d-block w-100" alt="..."/>
+                        <img src={gram2} className="d-block w-100" alt="..."/>
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -41,31 +43,31 @@ function Dell (){
                         
                         </div>
                         <div className="col4">
-                                <h2>Apple MAC M1(2022)</h2>
+                                <h2>LG gram 15.6” Ultra-Lightweight Touchscreen Laptop with Intel® Core™ i7 processor</h2>
                                     <table>
                                         <tbody>
                                             <tr>
-                                                <td><span >Brand</span></td>
+                                                <td><span className="Spec">Brand</span></td>
+                                                <td><span>LG</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span className="Spec">Model</span></td>
                                                 <td><span>Mac book</span></td>
                                             </tr>
                                             <tr>
-                                                <td className="spec"><span >Model</span></td>
+                                                <td><span className="Spec">Screen</span></td>
                                                 <td><span>Mac book</span></td>
                                             </tr>
                                             <tr>
-                                                <td><span >Screen</span></td>
+                                                <td><span className="Spec">Brand</span></td>
                                                 <td><span>Mac book</span></td>
                                             </tr>
                                             <tr>
-                                                <td><span >Brand</span></td>
+                                                <td><span className="Spec">Brand</span></td>
                                                 <td><span>Mac book</span></td>
                                             </tr>
                                             <tr>
-                                                <td><span >Brand</span></td>
-                                                <td><span>Mac book</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td><span >Brand</span></td>
+                                                <td><span className="Spec">Brand</span></td>
                                                 <td><span>Mac book</span></td>
                                             </tr>
 
@@ -87,23 +89,24 @@ function Dell (){
                             Why We Picked It
                         </h2>
                         <br />
-                        <p>To get the obvious out of the way, the new-for-2022 MacBook Air with Apple's more powerful M2 processor is a faster,
-                             more desirable machine; if you can swing its $1,199 starting price or a costlier upscale configuration, don't look back.
-                              But the M1 version of Apple's lightest portable is still a highly capable, lovable laptop for $999. 
-                            Weighing a trim 2.8 pounds, it offers a sharp 13.3-inch Retina display; elegant unibody metal construction in Space Gray,
-                             Gold, or Silver; one of the best keyboards and arguably the best touchpad on any laptop; snappy performance and unbeatable integration with the iPhone;
-                              and phenomenal battery life (29 hours in our video-playback test).
+                        <p>The LG gram 15Z970 touchscreen laptop is another best laptop for accounting work. LG designed this laptop model for business people in mind. Of course,
+                             accountants fall in the category of business people. As usual, it comes bearing gifts in the form of outstanding features. For starters, it uses the 
+                             famous intel core i7 processor to boost the operating speed of this laptop. That’s part of what makes it stand out. It is one of the ideal laptops for 
+                             accountants.The 13.3-inch laptop is thin and lightweight by design. You can boldly carry it along with you on any trip. The resolution also produces crisp 
+                             images with a 1920 x 1080 Pixels maximum resolution. With 256GB SSD, you never have to worry about storage space.
                         </p>
                         <br />
-                        <h2>
-                        Who It's For
-                        </h2>
-                        <br />
-                        <p>
-                        Apple still insists touch screens are only for tablets and phones, but otherwise it's hard to find fault with the system that invented the ultraportable category.
-                         The MacBook Air remains a great grab-and-go productivity partner for almost any around-campus computing task short of hardcore gaming.
-                        </p>
+
                     </div>
+                    <div className="usefor">
+                            <h2>
+                            Who It's For
+                            </h2>
+                            <br />
+                            <p>accounting student
+
+                        </p>
+                        </div>
                     {/* <div>
                         <h2>Specification</h2>
 
@@ -124,10 +127,10 @@ function Dell (){
                             <div>
                             <h4>Pro</h4>
                             <ul>
-                                <li>Performence</li>
-                                <li>Easy for use</li>
-                                <li>Long battery</li>
-                                <li>others</li>
+                                <li>Brilliant screen and colors</li>
+                                <li>Strong processor performance</li>
+                                <li>Long-lasting battery</li>
+                                <li>Crazy thin and amazingly light</li>
                             </ul>
 
                             </div>
@@ -137,10 +140,10 @@ function Dell (){
                             <div>
                                 <h4>Con</h4>
                             <ul>
-                                <li>Performence</li>
-                                <li>Easy for use</li>
-                                <li>Long battery</li>
-                                <li>others</li>
+                                <li>Power connector feels fragile</li>
+                                <li>Power connector feels fragile</li>
+                                <li>Type-C port is only USB 3.1 Gen1</li>
+                                <li></li>
                             </ul>
         
                             </div>
@@ -152,7 +155,7 @@ function Dell (){
                 <br />
                 <br />
                 <section id="youtube-link">
-                    <embed src="https://www.youtube.com/embed/bmgvei6M43A"  ></embed>
+                    <embed src="https://www.youtube.com/embed/biQbRjeaoHw"  ></embed>
                 </section>
                 <br />
                 <br />
@@ -174,17 +177,17 @@ function Dell (){
 
                         <td>V Tech</td>
                         <td>1599$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
                         </tr>
                         <tr>
                         <td>TK Custom</td>
                         <td>1599$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
                         </tr>
                         <tr>
                         <td>Gold One Computer</td>
                         <td>99$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
                         </tr>
 
                     </tbody>
@@ -207,4 +210,4 @@ function Dell (){
 
     )
 }
-export default Dell ;
+export default LG_Gram ;

@@ -6,14 +6,16 @@
     flex-direction: column;
     width: 490px;
     
+   }
+   .row .col4 img {
+    width: 480px;
+    height: 350px;
+    border-radius: 5px;
+    
+   
     
    }
-   /* .row .col4 .carousel .carousel-inner .carousel-item img{
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-      
-      
-     } */
-   
+
 .row .col4  table{
   font-size: 15px;
   margin-left: 65px;
@@ -22,10 +24,10 @@
   
   
  }
- .row .col4 table .spec {
-  font-weight: 600;
+ /* .row .col4 table tr .spec {
+  font-weight: bold;
   font-size: 15px;
- }
+ } */
 
   .row h3{
     color: brown;
@@ -52,17 +54,17 @@
 
   section .Text{
     width: 60%;
-    height: 600px;
+    height: auto;
     /* background-color: gainsboro; */
   }
-  section .specification{
+  /* section .specification{
     width: 60%;
     margin-top: 20px ;
     border: 2px solid black;
     background-color: antiquewhite;
     border-radius: 10px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  }
+  } */
 
 
   .row .col6 {
@@ -93,4 +95,40 @@
 
    .btn a{
     text-decoration: none;
+   }
+
+   @media screen and (max-width: 960px) {
+
+    .container{
+      width:100%;
+    }
+  
+    #description-item .Text h2,p {
+      /* display: flex; */
+      width: 400px;
+      display: flex;
+     
+      flex-wrap: wrap;
+      position: relative;
+
+     
+    }
+    #specification .row .col6{
+      display: flex;
+      width: 400px;
+      flex-wrap: wrap;
+    }
+    embed {
+      width: 400px;
+      height: 300px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     }
+
+
+
+
+
+    
+
+
    }

@@ -1,9 +1,12 @@
 import React from "react"  ;
 import "../../CSS/products.css"; 
-import mac from "../../../images/mac.jpg"; 
-import LG from "../../../images/LGGram1.webp"; 
+// import gram from "../../../images/LGGram.jpg"; 
+import thinkpad1 from "../../../images/lenovo-thinkpad1.jpg";
+import thinkpad2 from "../../../images/lenovo-thinkpad2.png";
+import thinkpad3 from "../../../images/lenovo-thinkpad3.jpg";
 
-function Dell (){
+
+function LenovoThinkPad (){
     return (
         <>
         <div className="container">
@@ -20,13 +23,13 @@ function Dell (){
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                        <img src={mac} className="d-block w-100" alt="..."/>
+                        <img src={thinkpad1} className="d-block w-100" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                        <img src={LG} className="d-block w-100" alt="..."/>
+                        <img src={thinkpad2} className="d-block w-100" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                        <img src={mac} className="d-block w-100" alt="..."/>
+                        <img src={thinkpad3} className="d-block w-100" alt="..."/>
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -41,15 +44,15 @@ function Dell (){
                         
                         </div>
                         <div className="col4">
-                                <h2>Apple MAC M1(2022)</h2>
+                                <h2>Lenovo ThinkPad P1 Gen 5 Laptop</h2>
                                     <table>
                                         <tbody>
                                             <tr>
                                                 <td><span >Brand</span></td>
-                                                <td><span>Mac book</span></td>
+                                                <td><span>Microsoft</span></td>
                                             </tr>
                                             <tr>
-                                                <td className="spec"><span >Model</span></td>
+                                                <td><span >Microsoft</span></td>
                                                 <td><span>Mac book</span></td>
                                             </tr>
                                             <tr>
@@ -73,8 +76,6 @@ function Dell (){
                                     </table>
 
                         </div>
-
-
                     </div>
                     </div>
                     <br />
@@ -87,35 +88,27 @@ function Dell (){
                             Why We Picked It
                         </h2>
                         <br />
-                        <p>To get the obvious out of the way, the new-for-2022 MacBook Air with Apple's more powerful M2 processor is a faster,
-                             more desirable machine; if you can swing its $1,199 starting price or a costlier upscale configuration, don't look back.
-                              But the M1 version of Apple's lightest portable is still a highly capable, lovable laptop for $999. 
-                            Weighing a trim 2.8 pounds, it offers a sharp 13.3-inch Retina display; elegant unibody metal construction in Space Gray,
-                             Gold, or Silver; one of the best keyboards and arguably the best touchpad on any laptop; snappy performance and unbeatable integration with the iPhone;
-                              and phenomenal battery life (29 hours in our video-playback test).
-                        </p>
-                        <br />
-                        <h2>
-                        Who It's For
-                        </h2>
-                        <br />
                         <p>
-                        Apple still insists touch screens are only for tablets and phones, but otherwise it's hard to find fault with the system that invented the ultraportable category.
-                         The MacBook Air remains a great grab-and-go productivity partner for almost any around-campus computing task short of hardcore gaming.
+                        The latest in the Lenovo Thinkpad series boasts the portability of its predecessors, with some new and improved features that make for a relaxed and smooth work experience. 
+                        Despite its sleek appearance, this device is powerful and offers the best of the latest Intel vPro platform, Core H Series processors and NVIDIA graphics, meaning it can easily 
+                        handle the demands of rendering and real-time visualization.The device is made of a liquid metal thermal design which ensures that it stays cool, while its Carbon-Fiber weave cover
+                         is sleek in appearance, making it discreet and professional for meetings and presentations. The 16’’ touchscreen is anti-glare and produces an advanced color quality through its X-Rite 
+                         Factory Color Calibration. By correcting the RGB color, designers can confidently edit designs and communicate rendering changes. Additionally, the backlit keyboard provides clear visibility 
+                         for designers working on their computer for long periods of time. Meanwhile, the 12th Generation Intel Core i7-12700H Processor ensures a smooth and efficient work experience.
                         </p>
+                        <br />
+
                     </div>
-                    {/* <div>
-                        <h2>Specification</h2>
+                    <div className="usefor">
+                            <h2>
+                            Who It's For
+                            </h2>
+                            <br />
+                            <p>Architecture student student
 
-                    </div> */}
+                        </p>
+                        </div>
 
-                    {/* <div className="specification">
-                        
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                             ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                              but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    </div> */}
                 </section>
                 <br />
                 <section id ="specification">
@@ -124,12 +117,14 @@ function Dell (){
                             <div>
                             <h4>Pro</h4>
                             <ul>
-                                <li>Performence</li>
-                                <li>Easy for use</li>
-                                <li>Long battery</li>
-                                <li>others</li>
-                            </ul>
+                                <li>Wonderful keyboard</li>
+                                <li>Handsome 4K touch screen</li>
+                                <li>Good array of ports and available 5G</li>
+                                <li >Trim and light for a 16-inch laptop</li> 
 
+ 
+                            </ul>
+                                
                             </div>
                         
                         </div>
@@ -137,10 +132,9 @@ function Dell (){
                             <div>
                                 <h4>Con</h4>
                             <ul>
-                                <li>Performence</li>
-                                <li>Easy for use</li>
-                                <li>Long battery</li>
-                                <li>others</li>
+                                <li>Unremarkable battery life</li>
+                                <li>Mighty expensive</li>
+                                <li>No OLED screen option</li>
                             </ul>
         
                             </div>
@@ -152,7 +146,7 @@ function Dell (){
                 <br />
                 <br />
                 <section id="youtube-link">
-                    <embed src="https://www.youtube.com/embed/bmgvei6M43A"  ></embed>
+                    <embed src="https://www.youtube.com/embed/2wglanjCIG0"></embed>
                 </section>
                 <br />
                 <br />
@@ -172,20 +166,20 @@ function Dell (){
                     <tbody>
                         <tr>
 
-                        <td>V Tech</td>
-                        <td>1599$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
+                        <td>Amazon</td>
+                        <td>$2699</td>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                         <td>TK Custom</td>
                         <td>1599$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
                         </tr>
                         <tr>
                         <td>Gold One Computer</td>
                         <td>99$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
-                        </tr>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
+                        </tr> */}
 
                     </tbody>
                     </table>
@@ -207,4 +201,4 @@ function Dell (){
 
     )
 }
-export default Dell ;
+export default LenovoThinkPad ;

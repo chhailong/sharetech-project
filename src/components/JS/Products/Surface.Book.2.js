@@ -1,9 +1,9 @@
 import React from "react"  ;
 import "../../CSS/products.css"; 
-import mac from "../../../images/mac.jpg"; 
-import LG from "../../../images/LGGram1.webp"; 
-
-function Dell (){
+import sfbook2 from "../../../images/surfacebook2-1.jpg";
+import Sfbook2 from "../../../images/surfacebook2-2.png";
+import sfBook2 from "../../../images/surfacebook2-3.jpg";
+function SurfaceBook2 (){
     return (
         <>
         <div className="container">
@@ -20,13 +20,13 @@ function Dell (){
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                        <img src={mac} className="d-block w-100" alt="..."/>
+                        <img src={sfBook2} className="d-block w-100" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                        <img src={LG} className="d-block w-100" alt="..."/>
+                        <img src={Sfbook2} className="d-block w-100" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                        <img src={mac} className="d-block w-100" alt="..."/>
+                        <img src={sfbook2} className="d-block w-100" alt="..."/>
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -41,15 +41,15 @@ function Dell (){
                         
                         </div>
                         <div className="col4">
-                                <h2>Apple MAC M1(2022)</h2>
+                                <h2>Microsoft Surface Book 2</h2>
                                     <table>
                                         <tbody>
                                             <tr>
                                                 <td><span >Brand</span></td>
-                                                <td><span>Mac book</span></td>
+                                                <td><span>Microsoft</span></td>
                                             </tr>
                                             <tr>
-                                                <td className="spec"><span >Model</span></td>
+                                                <td><span >Microsoft</span></td>
                                                 <td><span>Mac book</span></td>
                                             </tr>
                                             <tr>
@@ -73,8 +73,6 @@ function Dell (){
                                     </table>
 
                         </div>
-
-
                     </div>
                     </div>
                     <br />
@@ -87,49 +85,45 @@ function Dell (){
                             Why We Picked It
                         </h2>
                         <br />
-                        <p>To get the obvious out of the way, the new-for-2022 MacBook Air with Apple's more powerful M2 processor is a faster,
-                             more desirable machine; if you can swing its $1,199 starting price or a costlier upscale configuration, don't look back.
-                              But the M1 version of Apple's lightest portable is still a highly capable, lovable laptop for $999. 
-                            Weighing a trim 2.8 pounds, it offers a sharp 13.3-inch Retina display; elegant unibody metal construction in Space Gray,
-                             Gold, or Silver; one of the best keyboards and arguably the best touchpad on any laptop; snappy performance and unbeatable integration with the iPhone;
-                              and phenomenal battery life (29 hours in our video-playback test).
-                        </p>
-                        <br />
-                        <h2>
-                        Who It's For
-                        </h2>
-                        <br />
                         <p>
-                        Apple still insists touch screens are only for tablets and phones, but otherwise it's hard to find fault with the system that invented the ultraportable category.
-                         The MacBook Air remains a great grab-and-go productivity partner for almost any around-campus computing task short of hardcore gaming.
+                        The Microsoft Surface Book 2 is a versatile laptop that any computer science student should consider. This representative from Microsoft is not simply a laptop. 
+                        You can also use a device like a tablet or a mobile studio. Combined with the stylus, you can work with the most flexibility anywhere, anytime. This laptop model 
+                        also impresses with a series of advantages that are very good for your study and work. Some of them can have a battery life of up to 17 hours, a touch screen, and support for many connection ports.
                         </p>
+                        <br />
+
                     </div>
-                    {/* <div>
-                        <h2>Specification</h2>
+                    <div className="usefor">
+                            <h2>
+                            Who It's For
+                            </h2>
+                            <br />
+                            <p>Computer Science student
 
-                    </div> */}
+                        </p>
+                        </div>
 
-                    {/* <div className="specification">
-                        
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                             ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                              but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    </div> */}
                 </section>
                 <br />
                 <section id ="specification">
                     <div className="row">
-                        <div className="col6">
+                        <div className=" col6 ">
                             <div>
                             <h4>Pro</h4>
                             <ul>
-                                <li>Performence</li>
-                                <li>Easy for use</li>
-                                <li>Long battery</li>
-                                <li>others</li>
-                            </ul>
+                                <li>Great battery life</li>
+                                <li>High-quality case</li>
+                                <li>Comfortable input devices</li>
+                                <li >A PC that is nearly capable of everything</li> 
+                                <li >Excellent keyboard and trackpad</li> 
+                                <li >Fanless design</li> 
+                                <li >Gorgeous design</li> 
+                                <li >Fanless design</li> 
+                                <li >Decent entry-level gaming performance</li> 
 
+  
+                            </ul>
+                                
                             </div>
                         
                         </div>
@@ -137,10 +131,10 @@ function Dell (){
                             <div>
                                 <h4>Con</h4>
                             <ul>
-                                <li>Performence</li>
-                                <li>Easy for use</li>
-                                <li>Long battery</li>
-                                <li>others</li>
+                                <li>Lacks Thunderbolt 3</li>
+                                <li>It's rather heavy</li>
+                                <li>No Surface Pen included, Expensive</li>
+
                             </ul>
         
                             </div>
@@ -152,7 +146,7 @@ function Dell (){
                 <br />
                 <br />
                 <section id="youtube-link">
-                    <embed src="https://www.youtube.com/embed/bmgvei6M43A"  ></embed>
+                    <embed src="https://www.youtube.com/embed/2wglanjCIG0"></embed>
                 </section>
                 <br />
                 <br />
@@ -172,20 +166,20 @@ function Dell (){
                     <tbody>
                         <tr>
 
-                        <td>V Tech</td>
-                        <td>1599$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
+                        <td>Amazon</td>
+                        <td>$1887</td>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                         <td>TK Custom</td>
                         <td>1599$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
                         </tr>
                         <tr>
                         <td>Gold One Computer</td>
                         <td>99$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
-                        </tr>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
+                        </tr> */}
 
                     </tbody>
                     </table>
@@ -207,4 +201,4 @@ function Dell (){
 
     )
 }
-export default Dell ;
+export default SurfaceBook2 ;

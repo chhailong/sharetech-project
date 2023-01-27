@@ -1,9 +1,12 @@
 import React from "react"  ;
 import "../../CSS/products.css"; 
-import mac from "../../../images/mac.jpg"; 
-import LG from "../../../images/LGGram1.webp"; 
 
-function Dell (){
+import hpzbook1 from "../../../images/HP-zbook1.webp"; 
+import hpzbook2 from "../../../images/HP-zbook2.png"; 
+import hpzbook3 from "../../../images/HP-zbook3.webp"; 
+
+
+function HPZbook (){
     return (
         <>
         <div className="container">
@@ -20,13 +23,13 @@ function Dell (){
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                        <img src={mac} className="d-block w-100" alt="..."/>
+                        <img src={hpzbook1} className="d-block w-100" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                        <img src={LG} className="d-block w-100" alt="..."/>
+                        <img src={hpzbook2} className="d-block w-100" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                        <img src={mac} className="d-block w-100" alt="..."/>
+                        <img src={hpzbook3} className="d-block w-100" alt="..."/>
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -41,15 +44,15 @@ function Dell (){
                         
                         </div>
                         <div className="col4">
-                                <h2>Apple MAC M1(2022)</h2>
+                                <h2>HP ZBook Fury G8 Mobile Workstation</h2>
                                     <table>
                                         <tbody>
                                             <tr>
                                                 <td><span >Brand</span></td>
-                                                <td><span>Mac book</span></td>
+                                                <td><span>Microsoft</span></td>
                                             </tr>
                                             <tr>
-                                                <td className="spec"><span >Model</span></td>
+                                                <td><span >Microsoft</span></td>
                                                 <td><span>Mac book</span></td>
                                             </tr>
                                             <tr>
@@ -73,8 +76,6 @@ function Dell (){
                                     </table>
 
                         </div>
-
-
                     </div>
                     </div>
                     <br />
@@ -87,35 +88,26 @@ function Dell (){
                             Why We Picked It
                         </h2>
                         <br />
-                        <p>To get the obvious out of the way, the new-for-2022 MacBook Air with Apple's more powerful M2 processor is a faster,
-                             more desirable machine; if you can swing its $1,199 starting price or a costlier upscale configuration, don't look back.
-                              But the M1 version of Apple's lightest portable is still a highly capable, lovable laptop for $999. 
-                            Weighing a trim 2.8 pounds, it offers a sharp 13.3-inch Retina display; elegant unibody metal construction in Space Gray,
-                             Gold, or Silver; one of the best keyboards and arguably the best touchpad on any laptop; snappy performance and unbeatable integration with the iPhone;
-                              and phenomenal battery life (29 hours in our video-playback test).
-                        </p>
-                        <br />
-                        <h2>
-                        Who It's For
-                        </h2>
-                        <br />
                         <p>
-                        Apple still insists touch screens are only for tablets and phones, but otherwise it's hard to find fault with the system that invented the ultraportable category.
-                         The MacBook Air remains a great grab-and-go productivity partner for almost any around-campus computing task short of hardcore gaming.
+                        When we think of robustness, we think of the HP ZBook Fury G8 Mobile Workstation. A high-speed, high-performing device ready to support an architect’s complex and dynamic work. 
+                        Whether using the device for architectural visualization, video editing, zoom calls or large-file storage, this device is ready to support all types of work. With a Intel Core
+                         i7-11800H Processor a Max Turbo Frequency of up to 4.6GHz, this laptop can quickly transfer data and load any application. Built with two Thunderbolt 4 with USB4 Type-C, three
+                          SuperSpeed USB Type-A ports and a microphone jack, this device is prepared for any type of work. Moreover, the HP ZBook Fury’s backlit keyboard and anti-glare display ensure a 
+                          comfortable experience – a great device for architects and architecture students working with tedious design software and meticulous renderings. The laptop comes with Windows 10 Pro and can be updated to Windows 11 Pro for free.
                         </p>
+                        <br />
+
                     </div>
-                    {/* <div>
-                        <h2>Specification</h2>
+                    <div className="usefor">
+                            <h2>
+                            Who It's For
+                            </h2>
+                            <br />
+                            <p>Architecture student student
 
-                    </div> */}
+                        </p>
+                        </div>
 
-                    {/* <div className="specification">
-                        
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                             ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                              but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    </div> */}
                 </section>
                 <br />
                 <section id ="specification">
@@ -124,12 +116,13 @@ function Dell (){
                             <div>
                             <h4>Pro</h4>
                             <ul>
-                                <li>Performence</li>
-                                <li>Easy for use</li>
-                                <li>Long battery</li>
-                                <li>others</li>
+                                <li>Scorching Core i9 processor</li>
+                                <li>Up to 128GB of RAM and 8TB of storage</li>
+                                <li> Available ECC memory</li>
+                                <li >Great serviceability and security</li> 
+                                <li >Beautiful 4K DreamColor display</li> 
                             </ul>
-
+                                
                             </div>
                         
                         </div>
@@ -137,10 +130,10 @@ function Dell (){
                             <div>
                                 <h4>Con</h4>
                             <ul>
-                                <li>Performence</li>
-                                <li>Easy for use</li>
-                                <li>Long battery</li>
-                                <li>others</li>
+                                <li>Ultra-expensive GPU fails to impress</li>
+                                <li>Wi-Fi 6, not 6E</li>
+                                <li>Sky-high price when fully loaded</li>
+
                             </ul>
         
                             </div>
@@ -152,7 +145,7 @@ function Dell (){
                 <br />
                 <br />
                 <section id="youtube-link">
-                    <embed src="https://www.youtube.com/embed/bmgvei6M43A"  ></embed>
+                    <embed src="https://www.youtube.com/embed/2wglanjCIG0"></embed>
                 </section>
                 <br />
                 <br />
@@ -172,20 +165,20 @@ function Dell (){
                     <tbody>
                         <tr>
 
-                        <td>V Tech</td>
-                        <td>1599$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
+                        <td>Amazon</td>
+                        <td>$2254.96+</td>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                         <td>TK Custom</td>
                         <td>1599$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
                         </tr>
                         <tr>
                         <td>Gold One Computer</td>
                         <td>99$</td>
-                        <td><button type="button" class="btn btn-info"><a href="">location</a></button></td>
-                        </tr>
+                        <td><button type="button" className ="btn btn-info"><a href="">location</a></button></td>
+                        </tr> */}
 
                     </tbody>
                     </table>
@@ -207,4 +200,4 @@ function Dell (){
 
     )
 }
-export default Dell ;
+export default HPZbook ;
