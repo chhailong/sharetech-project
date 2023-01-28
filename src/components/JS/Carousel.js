@@ -9,11 +9,6 @@ function Carousel() {
             <div 
             id="carouselExample" 
             class="carousel carousel-dark slide"
-            data-type="carousel"
-            data-width="100%"
-            data-hight="300px"
-            data-animation="dragX"
-            data-move="1"
             >
                 <div class="carousel-inner">
 
