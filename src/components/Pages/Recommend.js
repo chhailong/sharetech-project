@@ -1,22 +1,23 @@
-import React from 'react'
-import Carousel from '../JS/Carousel'
-import Filter from '../JS/Filter'
+import React from "react";
+import CardCol from "../JS/CardCol";
+
+import Filter from "../JS/Filter";
 
 function Recommend() {
   return (
     <>
-      <div class="container text-center">
+      <div class="container-fluid text-center">
         <div class="row">
-          <div class="col-4">
-            <Filter/>
+          <div class="col-lg-3">
+            <Filter />
           </div>
-          <div class="col-8">
-            <Carousel/>
+          <div class="col-lg-9">
+            <CardCol />
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Recommend
+export default Recommend;
