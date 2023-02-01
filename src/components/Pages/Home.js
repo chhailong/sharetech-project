@@ -86,6 +86,8 @@ function Home() {
           </Carousel>
         </div>
       </div>
+
+      <button className="btn btn-primary " type="button"> See More</button>
     </>
   );
 }
