@@ -1,7 +1,7 @@
 
 import React, { useState ,useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import "../../CSS/review.css" ; 
+
 
 const Review = () => {
 
@@ -14,6 +14,7 @@ const Review = () => {
       const dataItems = await req.json(); 
      
       AllItem(dataItems.data); 
+
       console.log(dataItems); 
       
     } catch (err) {
