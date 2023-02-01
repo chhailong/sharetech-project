@@ -1,9 +1,4 @@
 import React from "react";
-import img1 from "../../Images/image1-1.jpg";
-import img2 from "../../Images/image1-2.jpg";
-import img3 from "../../Images/image1-3.jpg";
-import img4 from "../../Images/image1-4.jpg";
-import img5 from "../../Images/image1-5.jpg";
 import "../CSS/carousel.css";
 
 function Cards() {

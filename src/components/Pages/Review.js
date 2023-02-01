@@ -9,19 +9,83 @@ function Review (){
                 <h1>Review Page</h1>
             </div>
 
-            <div>
-                <h5>Top products</h5>
-                <Carousel/>
+
+            <div className="container">
+                <h5>Best Performance</h5>
+                <div style={{maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 10 }}>
+                    <Carousel show={3}>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                    </Carousel>
+                </div>
             </div>
-            
-            <div>
+
+            <div className="container">
+                <h5>Best Popular</h5>
+                <div style={{maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 10 }}>
+                    <Carousel show={3}>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                    </Carousel>
+                </div>
+            </div>
+
+            <div className="container">
                 <h5>Best Price</h5>
-                <Carousel/>
-            </div>
-           
-            <div>
-                <h5>Design</h5>
-                <Carousel/>
+                <div style={{maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 10 }}>
+                    <Carousel show={3}>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                        <div style={{padding: 8}}>
+                            <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+                        </div>
+                    </Carousel>
+                </div>
             </div>
         </>
     );
