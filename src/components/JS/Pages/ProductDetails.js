@@ -9,10 +9,10 @@ const ProductDetails = () => {
 
   const getProuduct = async () => {
     try {
-      const req = await fetch("http://localhost:3333/product/" + id);
+      const req = await fetch("http://localhost:3333/product/laptops/" + id);
       const dataItems = await req.json();
 
-      allItem(dataItems.data);
+      allItem(dataItems.laptop);
       console.log(dataItems);
     } catch (err) {
       console.log(err);
@@ -109,9 +109,9 @@ const ProductDetails = () => {
                 </div>
                 <div className="col4">
                   <h2>{show.title}</h2>
-       
+
                   <table>
-                  <h4>Key Fealtures</h4>
+                    <h4>Key Fealtures</h4>
                     <tr>
                       <td>CPU</td>
                       <td>{show.cpu}</td>

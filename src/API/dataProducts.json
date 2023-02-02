@@ -1,11 +1,12 @@
- [
+{ 
+    "laptops": [
         {
             "id": "1", 
             "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-aspire3_tjq8q2.webp",
             "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-aspire1_btxc2l.jpg",
             "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880445/Image/acer-aspire2_euwohd.webp",
 
-            "title":"Acer Aspire 7",
+            "title":"Acer Aspire 5",
             "cpu": "Intel Core i5 4-core",
             "ram" :"8GB of DRR4 SDRAM", 
             "gpu" :"Nvidia GeForce GTX 1650 (4GB GDDR6)",
@@ -30,8 +31,6 @@
             "shop": "V Tech",
             "price":"800$+",
             "location":"https://www.google.com.kh/maps/place/V-Tech+Gaming+Center/@11.5580882,104.9070546,17z"
-
-
         },
         {
             "id": "2", 
@@ -62,7 +61,115 @@
             "shop": "V Tech",
             "price":"800$+",
             "location":"https://www.google.com.kh/maps/place/V-Tech+Gaming+Center/@11.5580882,104.9070546,17z"
+        },
+        {
+            "id": "3", 
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880446/Image/acer-nitro1_pq5mik.webp",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro_zrman7.jpg",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro2_whk90v.jpg",
+
+            "title":"ASUS ROG",
+            "cpu": "Intel Core i5 ",
+            "ram" :"8GB of DRR4 ", 
+            "gpu" :"Nvidia GeForce GTX 1650 ",
+            "refresh rate" :"60hz",
+            "os": "Windows 11 Home",
+            "display-size":"15.6' 1920 x 1080 Screen Resolution",
+
+            "description" : "Encryption is work that consumes a lot of computer resources. Your device must be powerful enough to compute and compile.That is also why you should not ignore Acer Nitro 5, one of the powerful laptop models in the price range. The product’s 10th Gen Intel i5 10300H processor confidently delivers the incredible power you’ve been looking for. Meanwhile, the latest NVIDIA GeForce RTX 3050 graphics card will help you have the smoothest working experience. With a powerful processor, this device can complete heavy tasks well. However, Acer Nitro 5 has an overheating phenomenon during work. The manufacturer has integrated Acer CoolBoost technology, which increases fan speed, effectively improving cooling capacity.",
+            "usefor":"computer science",
+            "pro":["The cooling system is quite good" ,
+                "Intel Wi-Fi 6 AX201 ensures connectivity",
+                "The screen ratio reaches 80% of the body",
+                "The NVIDIA GeForce RTX 3050 graphics card",
+                "Powerful processor"
+            ],
+           
+            "con":["Limited battery life" 
+            ],
+            "youtube" : "https://www.youtube.com/embed/NNTej5ZbgUs",
+            "shop": "V Tech",
+            "price":"800$+",
+            "location":"https://www.google.com.kh/maps/place/V-Tech+Gaming+Center/@11.5580882,104.9070546,17z"
+        },
+        {
+            "id": "4", 
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880446/Image/acer-nitro1_pq5mik.webp",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro_zrman7.jpg",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro2_whk90v.jpg",
+
+            "title":"MSI ",
+            "cpu": "Intel Core i5 ",
+            "ram" :"8GB of DRR4 ", 
+            "gpu" :"Nvidia GeForce GTX 1650 ",
+            "refresh rate" :"60hz",
+            "os": "Windows 11 Home",
+            "display-size":"15.6' 1920 x 1080 Screen Resolution",
+
+            "description" : "Encryption is work that consumes a lot of computer resources. Your device must be powerful enough to compute and compile.That is also why you should not ignore Acer Nitro 5, one of the powerful laptop models in the price range. The product’s 10th Gen Intel i5 10300H processor confidently delivers the incredible power you’ve been looking for. Meanwhile, the latest NVIDIA GeForce RTX 3050 graphics card will help you have the smoothest working experience. With a powerful processor, this device can complete heavy tasks well. However, Acer Nitro 5 has an overheating phenomenon during work. The manufacturer has integrated Acer CoolBoost technology, which increases fan speed, effectively improving cooling capacity.",
+            "usefor":"computer science",
+            "pro":["The cooling system is quite good" ,
+                "Intel Wi-Fi 6 AX201 ensures connectivity",
+                "The screen ratio reaches 80% of the body",
+                "The NVIDIA GeForce RTX 3050 graphics card",
+                "Powerful processor"
+            ],
+           
+            "con":["Limited battery life" 
+            ],
+            "youtube" : "https://www.youtube.com/embed/NNTej5ZbgUs",
+            "shop": "V Tech",
+            "price":"800$+",
+            "location":"https://www.google.com.kh/maps/place/V-Tech+Gaming+Center/@11.5580882,104.9070546,17z"
+        },
+        {
+            "id": "5", 
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880446/Image/acer-nitro1_pq5mik.webp",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro_zrman7.jpg",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro2_whk90v.jpg",
+
+            "title":"Lenovo ",
+            "cpu": "Intel Core i5 ",
+            "ram" :"8GB of DRR4 ", 
+            "gpu" :"Nvidia GeForce GTX 1650 ",
+            "refresh rate" :"60hz",
+            "os": "Windows 11 Home",
+            "display-size":"15.6' 1920 x 1080 Screen Resolution",
+
+            "description" : "Encryption is work that consumes a lot of computer resources. Your device must be powerful enough to compute and compile.That is also why you should not ignore Acer Nitro 5, one of the powerful laptop models in the price range. The product’s 10th Gen Intel i5 10300H processor confidently delivers the incredible power you’ve been looking for. Meanwhile, the latest NVIDIA GeForce RTX 3050 graphics card will help you have the smoothest working experience. With a powerful processor, this device can complete heavy tasks well. However, Acer Nitro 5 has an overheating phenomenon during work. The manufacturer has integrated Acer CoolBoost technology, which increases fan speed, effectively improving cooling capacity.",
+            "usefor":"computer science",
+            "pro":["The cooling system is quite good" ,
+                "Intel Wi-Fi 6 AX201 ensures connectivity",
+                "The screen ratio reaches 80% of the body",
+                "The NVIDIA GeForce RTX 3050 graphics card",
+                "Powerful processor"
+            ],
+           
+            "con":["Limited battery life" 
+            ],
+            "youtube" : "https://www.youtube.com/embed/NNTej5ZbgUs",
+            "shop": "V Tech",
+            "price":"800$+",
+            "location":"https://www.google.com.kh/maps/place/V-Tech+Gaming+Center/@11.5580882,104.9070546,17z"
         }
         
-    ]
+    ],
 
+    "accessories":[
+        {
+            "id" : "1",
+            "name" :"Logitech",
+            "description" : "this  product  is  best for programer and  designer",
+            "price":"59$"
+
+    
+        },
+        {
+            "id" : "2",
+            "name" :"Razer",
+            "description" : "this  product  is  best for programer and  designer",
+            "price":"30$"
+        }
+
+    ]
+}
