@@ -1,11 +1,17 @@
-import React from "react";
+
 import Carousel from "../JS/Carousel";
 import Cards from "../JS/Cards";
 import "../../App.css"
 
-function Review (){
+import React, { useState ,useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
+const Review = () =>{
+
     return (
         <>
+
+          <div className="container">
           <div className="review">
               <h1>Review Page</h1>
           </div>
@@ -14,8 +20,11 @@ function Review (){
           <div className="container">
       <h5>Popular</h5>
       <div style={{maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 10 }}>
-        <Carousel show={4}>
+        <Carousel show={1}>
           <div style={{padding: 8}}>
+            <Cards />
+          </div>
+          {/* <div style={{padding: 8}}>
             <Cards />
           </div>
           <div style={{padding: 8}}>
@@ -29,10 +38,7 @@ function Review (){
           </div>
           <div style={{padding: 8}}>
             <Cards />
-          </div>
-          <div style={{padding: 8}}>
-            <Cards />
-          </div>
+          </div> */}
         </Carousel>
       </div>
           </div>
@@ -41,8 +47,11 @@ function Review (){
           <div className="container">
             <h5>Best Deal</h5>
             <div style={{maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 10 }}>
-              <Carousel show={4}>
-                <div style={{padding: 8}}>
+              <Carousel show={1}>
+                <div style={{padding: 4}}>
+                  <Cards />
+                </div>
+                {/* <div style={{padding: 8}}>
                   <Cards />
                 </div>
                 <div style={{padding: 8}}>
@@ -56,10 +65,7 @@ function Review (){
                 </div>
                 <div style={{padding: 8}}>
                   <Cards />
-                </div>
-                <div style={{padding: 8}}>
-                  <Cards />
-                </div>
+                </div> */}
               </Carousel>
             </div>
           </div>
@@ -68,8 +74,11 @@ function Review (){
           <div className="container">
             <h5>Best Performance</h5>
             <div style={{maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 10 }}>
-              <Carousel show={4}>
-                <div style={{padding: 8}}>
+              <Carousel show={1}>
+                <div style={{padding: 4}}>
+                  <Cards />
+                </div>
+                {/* <div style={{padding: 8}}>
                   <Cards />
                 </div>
                 <div style={{padding: 8}}>
@@ -83,13 +92,14 @@ function Review (){
                 </div>
                 <div style={{padding: 8}}>
                   <Cards />
-                </div>
-                <div style={{padding: 8}}>
-                  <Cards />
-                </div>
+                </div> */}
               </Carousel>
             </div>
           </div>
+
+      
+        </div>
+
         </>
     );
 }

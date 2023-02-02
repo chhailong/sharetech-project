@@ -4,17 +4,19 @@
 } */
 
 .card {
-    /* width: 11.875em;
-    height: 16.5em; */
+    
     box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 120ms;
-    display: flex;
+
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background: #fff;
     padding: 0.5em;
     padding-bottom: 3.4em;
+    width: 250px;
+    height: 200px;
 }
 
 /* .card::after {

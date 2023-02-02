@@ -15,7 +15,7 @@ function Home() {
             <div style={{padding: 8}}>
               <Cards />
             </div>
-            <div style={{padding: 8}}>
+            {/* <div style={{padding: 8}}>
               <Cards />
             </div>
             <div style={{padding: 8}}>
@@ -29,7 +29,7 @@ function Home() {
             </div>
             <div style={{padding: 8}}>
               <Cards />
-            </div>
+            </div> */}
           </Carousel>
         </div>
       </div>
@@ -38,8 +38,11 @@ function Home() {
       <div className="container">
         <h5>Best Deal</h5>
         <div style={{maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 10 }}>
-          <Carousel show={4}>
+          <Carousel show={1}>
             <div style={{padding: 8}}>
+              <Cards />
+            </div>
+            {/* <div style={{padding: 8}}>
               <Cards />
             </div>
             <div style={{padding: 8}}>
@@ -53,10 +56,7 @@ function Home() {
             </div>
             <div style={{padding: 8}}>
               <Cards />
-            </div>
-            <div style={{padding: 8}}>
-              <Cards />
-            </div>
+            </div> */}
           </Carousel>
         </div>
       </div>
