@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "../JS/Carousel";
 import Hero from "../JS/Hero";
+import Cards from "../JS/Cards";
 
 function Home() {
   return (
@@ -10,24 +11,24 @@ function Home() {
       <div className="container">
         <h5>Popular</h5>
         <div style={{maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 10 }}>
-          <Carousel show={3}>
+          <Carousel show={4}>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
           </Carousel>
         </div>
@@ -37,24 +38,24 @@ function Home() {
       <div className="container">
         <h5>Best Deal</h5>
         <div style={{maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 10 }}>
-          <Carousel show={3}>
+          <Carousel show={4}>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
           </Carousel>
         </div>
@@ -64,30 +65,32 @@ function Home() {
       <div className="container">
         <h5>Best Performance</h5>
         <div style={{maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 10 }}>
-          <Carousel show={3}>
+          <Carousel show={4}>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
             <div style={{padding: 8}}>
-              <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
+              <Cards />
             </div>
           </Carousel>
         </div>
       </div>
 
-      <button className="btn btn-primary " type="button"> See More</button>
+      <div class="col-md-12 text-center pt-4 pb-4">
+        <button class="btn btn-primary" type="button">Button</button>
+      </div>
     </>
   );
 }
