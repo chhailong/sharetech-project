@@ -1,9 +1,9 @@
-import "../../CSS/products.css";
+import "../CSS/products.css" ; 
 //React Component
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-const ProductDetails = () => {
+const LaptopDetails = () => {
   const { id } = useParams();
   const [items, allItem] = useState([]);
 
@@ -215,4 +215,4 @@ const ProductDetails = () => {
   );
 };
 
-export default ProductDetails;
+export default LaptopDetails;

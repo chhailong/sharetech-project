@@ -6,7 +6,7 @@
             "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-aspire1_btxc2l.jpg",
             "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880445/Image/acer-aspire2_euwohd.webp",
 
-            "title":"Acer Aspire 5",
+            "title":"Acer Aspire 7",
             "cpu": "Intel Core i5 4-core",
             "ram" :"8GB of DRR4 SDRAM", 
             "gpu" :"Nvidia GeForce GTX 1650 (4GB GDDR6)",
@@ -15,21 +15,20 @@
             "displaySize":"15.6' 1920 x 1080 Screen Resolution",
 
             "description" : "This laptop for accounting students looks like any other modern 15-inch model. It has a good build quality, an IPS display, a convenient keyboard and the latest generation hardware, which lets users easily carry out all types of tasks, from everyday ones to FHD gaming. It’s inexpensive because the manufacturers eliminated some of the features. Besides, it is more affordable than the previous two options",
-            "usefor":"computer science",
+            "usefor":"Recommend for computer science or accounting students because is an excellent choice for anyone looking for a reliable laptop.",
             "pro":["Comparatively affordable, rigid case, USB Type-C, TPM 2.0 + fingerprint reader" ,
                 "very bright display with decent contrast ratio",
                 "very powerful, no throttling, comparatively quiet, decent fans",
                 "Great build quality, Decent keyboard and trackpad, Excellent performance"
             ],
            
-            "con":["Comparatively affordable, rigid case, USB Type-C, TPM 2.0 + fingerprint reader" ,
-            "very bright display with decent contrast ratio",
-            "very powerful, no throttling, comparatively quiet, decent fans",
-            "Great build quality, Decent keyboard and trackpad , Excellent performance"
+            "con":["Just 8GB of RAM" ,
+            "Prone to overheating"
+            
             ],
-            "youtube" : "https://www.youtube.com/embed/2wglanjCIG0",
-            "shop": "V Tech",
-            "price":"800$+",
+            "youtube" : "https://www.youtube.com/embed/dWHVvieJ8Ac",
+            "shop": "",
+            "price":"999$+",
             "location":"https://www.google.com.kh/maps/place/V-Tech+Gaming+Center/@11.5580882,104.9070546,17z"
         },
         {
@@ -47,7 +46,7 @@
             "display-size":"15.6' 1920 x 1080 Screen Resolution",
 
             "description" : "Encryption is work that consumes a lot of computer resources. Your device must be powerful enough to compute and compile.That is also why you should not ignore Acer Nitro 5, one of the powerful laptop models in the price range. The product’s 10th Gen Intel i5 10300H processor confidently delivers the incredible power you’ve been looking for. Meanwhile, the latest NVIDIA GeForce RTX 3050 graphics card will help you have the smoothest working experience. With a powerful processor, this device can complete heavy tasks well. However, Acer Nitro 5 has an overheating phenomenon during work. The manufacturer has integrated Acer CoolBoost technology, which increases fan speed, effectively improving cooling capacity.",
-            "usefor":"computer science",
+            "usefor":"Recommend for computer science",
             "pro":["The cooling system is quite good" ,
                 "Intel Wi-Fi 6 AX201 ensures connectivity",
                 "The screen ratio reaches 80% of the body",
@@ -57,117 +56,362 @@
            
             "con":["Limited battery life" 
             ],
-            "youtube" : "https://www.youtube.com/embed/NNTej5ZbgUs",
+            "youtube" : "https://www.youtube.com/embed/NNTej5ZbgUs&t=59s",
             "shop": "V Tech",
-            "price":"800$+",
+            "price":": 759$",
             "location":"https://www.google.com.kh/maps/place/V-Tech+Gaming+Center/@11.5580882,104.9070546,17z"
         },
         {
             "id": "3", 
-            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880446/Image/acer-nitro1_pq5mik.webp",
-            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro_zrman7.jpg",
-            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro2_whk90v.jpg",
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880445/Image/dell-inspiron1_hus7qi.jpg",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880445/Image/dell-inspiron2_g4ubgm.jpg",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880445/Image/dell-inspiron3_lr85rw.jpg",
 
-            "title":"ASUS ROG",
-            "cpu": "Intel Core i5 ",
-            "ram" :"8GB of DRR4 ", 
-            "gpu" :"Nvidia GeForce GTX 1650 ",
-            "refresh rate" :"60hz",
-            "os": "Windows 11 Home",
-            "display-size":"15.6' 1920 x 1080 Screen Resolution",
+            "title":"Dell Inspiron",
+            "cpu": " 1.2GHz Cortex A8 Processor",
+            "ram" :"8 GB", 
+            "gpu" :"Intel UHD Graphics, or Intel Iris Plus Graphics",
+            "refreshRate" :"60hz",
+            "os": "Windows 10",
+            "displaySize":"13.3",
 
-            "description" : "Encryption is work that consumes a lot of computer resources. Your device must be powerful enough to compute and compile.That is also why you should not ignore Acer Nitro 5, one of the powerful laptop models in the price range. The product’s 10th Gen Intel i5 10300H processor confidently delivers the incredible power you’ve been looking for. Meanwhile, the latest NVIDIA GeForce RTX 3050 graphics card will help you have the smoothest working experience. With a powerful processor, this device can complete heavy tasks well. However, Acer Nitro 5 has an overheating phenomenon during work. The manufacturer has integrated Acer CoolBoost technology, which increases fan speed, effectively improving cooling capacity.",
-            "usefor":"computer science",
-            "pro":["The cooling system is quite good" ,
-                "Intel Wi-Fi 6 AX201 ensures connectivity",
-                "The screen ratio reaches 80% of the body",
-                "The NVIDIA GeForce RTX 3050 graphics card",
-                "Powerful processor"
+            "description" : "As a computer science student, you will have to store a lot of data related to ongoing projects, class lectures, and much other related information. With such a large file volume, a typical laptop will take a long time to open heavy files. With Dell Inspiron 17 3793, you will not have to face this situation. The product has a 512GB solid-state drive, which has more storage space and faster data access than traditional hard drives. This device supports hard drive upgrades with a maximum capacity of up to 1TB.",
+            "usefor":" Recommend for Architecture student",
+            "pro":["Large storage capacity." ,
+                "Easy to upgrade hard drive",
+                "Intel Core i5-1035G1 processor.",
+                "Wide viewing angle screen, anti-glare",
+                "Intel UHD Graphics"
             ],
            
-            "con":["Limited battery life" 
+            "con":["not the most portable options."
             ],
-            "youtube" : "https://www.youtube.com/embed/NNTej5ZbgUs",
-            "shop": "V Tech",
-            "price":"800$+",
-            "location":"https://www.google.com.kh/maps/place/V-Tech+Gaming+Center/@11.5580882,104.9070546,17z"
+            "youtube" : "https://www.youtube.com/embed/2jLUZQWnUIM",
+            "shop": "Amazon",
+            "price":"1099$",
+            "location":"#"
         },
         {
             "id": "4", 
-            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880446/Image/acer-nitro1_pq5mik.webp",
-            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro_zrman7.jpg",
-            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro2_whk90v.jpg",
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880445/Image/dell-xps3_hpvzmt.webp",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880447/Image/dell-xps2_sinalu.jpg",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880445/Image/dell-xps1_a1iytj.jpg",
 
-            "title":"MSI ",
-            "cpu": "Intel Core i5 ",
-            "ram" :"8GB of DRR4 ", 
-            "gpu" :"Nvidia GeForce GTX 1650 ",
-            "refresh rate" :"60hz",
-            "os": "Windows 11 Home",
-            "display-size":"15.6' 1920 x 1080 Screen Resolution",
+            "title":"Dell XPS 13",
+            "cpu": "Intel Core i7 1185G7",
+            "ram" :"16 GB", 
+            "gpu" :"Intel UHD Graphics 620",
+            "refreshRate" :"60hz",
+            "os": "Windows 10",
+            "displaySize":"13.3",
 
-            "description" : "Encryption is work that consumes a lot of computer resources. Your device must be powerful enough to compute and compile.That is also why you should not ignore Acer Nitro 5, one of the powerful laptop models in the price range. The product’s 10th Gen Intel i5 10300H processor confidently delivers the incredible power you’ve been looking for. Meanwhile, the latest NVIDIA GeForce RTX 3050 graphics card will help you have the smoothest working experience. With a powerful processor, this device can complete heavy tasks well. However, Acer Nitro 5 has an overheating phenomenon during work. The manufacturer has integrated Acer CoolBoost technology, which increases fan speed, effectively improving cooling capacity.",
-            "usefor":"computer science",
-            "pro":["The cooling system is quite good" ,
-                "Intel Wi-Fi 6 AX201 ensures connectivity",
-                "The screen ratio reaches 80% of the body",
-                "The NVIDIA GeForce RTX 3050 graphics card",
-                "Powerful processor"
+            "description" : "Studying computer science, you will often have to deal with algorithms and complex software. To work at the highest level, your laptop needs to have a powerful enough processor. Dell XPS 13 is such a laptop model. The product owns the latest generation mobile processor Intel Core i7-1195G7. Combined with that is 16GB of high-bandwidth RAM. The above combination has created a powerful laptop model capable of handling all multitasking tasks. XPS 13 also has WiFi 6 technology. Thanks to that, your work will not be interrupted. Instead, you’ll always have a fast, smooth online experience.",
+            "usefor":"Recommend for computer science student",
+            "pro":["Very compact case" ,
+                "Two Thunderbolt 3 ports",
+                "Fast Wi-Fi 6",
+                "Great battery life",
+                "No coil whine",
+                "Improved touchpad, Larger touchpad",
+                "Four-sided Infinity Edge display",
+                "Edge-to-edge keyboard"
             ],
            
-            "con":["Limited battery life" 
+            "con":["Mediocre webcam.",
+
+            "More expensive than the predecessor.",
+            "Limited port selection."
             ],
-            "youtube" : "https://www.youtube.com/embed/NNTej5ZbgUs",
-            "shop": "V Tech",
-            "price":"800$+",
-            "location":"https://www.google.com.kh/maps/place/V-Tech+Gaming+Center/@11.5580882,104.9070546,17z"
+            "youtube" : "https://www.youtube.com/embedkKHW0AlMkFo0",
+            "shop": "Amazon",
+            "price":"$1680",
+            "location":"#"
         },
+
         {
             "id": "5", 
-            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880446/Image/acer-nitro1_pq5mik.webp",
-            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro_zrman7.jpg",
-            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880444/Image/acer-nitro2_whk90v.jpg",
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880446/Image/HP-zbook2_uobq79.png",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880446/Image/HP-zbook3_s3cips.webp",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880445/Image/HP-zbook1_rvxof5.webp",
 
-            "title":"Lenovo ",
-            "cpu": "Intel Core i5 ",
-            "ram" :"8GB of DRR4 ", 
-            "gpu" :"Nvidia GeForce GTX 1650 ",
-            "refresh rate" :"60hz",
-            "os": "Windows 11 Home",
-            "display-size":"15.6' 1920 x 1080 Screen Resolution",
+            "title":"HP ZBook Fury G8 ",
+            "cpu": "Intel® Core™ i7-11800H (up to 4.6 GHz with Intel® Turbo Boost Technology, 24 MB L3 cache, 8 cores, 16 threads) ",
+            "ram" :"32 GB DDR4 3200 DIMM", 
+            "gpu" :"NVIDIA® RTX™ A2000",
+            "refreshRate" :"60hz",
+            "os": "Windows 11 Pro",
+            "displaySize":"13.3",
 
-            "description" : "Encryption is work that consumes a lot of computer resources. Your device must be powerful enough to compute and compile.That is also why you should not ignore Acer Nitro 5, one of the powerful laptop models in the price range. The product’s 10th Gen Intel i5 10300H processor confidently delivers the incredible power you’ve been looking for. Meanwhile, the latest NVIDIA GeForce RTX 3050 graphics card will help you have the smoothest working experience. With a powerful processor, this device can complete heavy tasks well. However, Acer Nitro 5 has an overheating phenomenon during work. The manufacturer has integrated Acer CoolBoost technology, which increases fan speed, effectively improving cooling capacity.",
-            "usefor":"computer science",
-            "pro":["The cooling system is quite good" ,
-                "Intel Wi-Fi 6 AX201 ensures connectivity",
-                "The screen ratio reaches 80% of the body",
-                "The NVIDIA GeForce RTX 3050 graphics card",
-                "Powerful processor"
+            "description" : " When we think of robustness, we think of the HP ZBook Fury G8 Mobile Workstation. A high-speed, high-performing device ready to support an architect’s complex and dynamic work. Whether using the device for architectural visualization, video editing, zoom calls or large-file storage, this device is ready to support all types of work. With a Intel Corei7-11800H Processor a Max Turbo Frequency of up to 4.6GHz, this laptop can quickly transfer data and load any application. Built with two Thunderbolt 4 with USB4 Type-C, threeSuperSpeed USB Type-A ports and a microphone jack, this device is prepared for any type of work. Moreover, the HP ZBook Fury’s backlit keyboard and anti-glare display ensure a comfortable experience – a great device for architects and architecture students working with tedious design software and meticulous renderings. The laptop comes with Windows 10 Pro and can be updated to Windows 11 Pro for free.",
+            "usefor":" Recommend for Architecture student",
+            "pro":["Scorching Core i9 processor" ,
+                "Up to 128GB of RAM and 8TB of storage",
+                "Available ECC memory",
+                "Great serviceability and security",
+                "Beautiful 4K DreamColor display"
+                
             ],
            
-            "con":["Limited battery life" 
+            "con":["Ultra-expensive GPU fails to impress",
+            "Wi-Fi 6, not 6E",
+            "Sky-high price when fully loaded"
+
+            
             ],
-            "youtube" : "https://www.youtube.com/embed/NNTej5ZbgUs",
-            "shop": "V Tech",
-            "price":"800$+",
-            "location":"https://www.google.com.kh/maps/place/V-Tech+Gaming+Center/@11.5580882,104.9070546,17z"
+            "youtube" : "https://www.youtube.com/embed/csQYsv-pVvs",
+            "shop": "Amazon",
+            "price":"$2254.96+",
+            "location":"#"
+        },
+        {
+            "id": "6", 
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880447/Image/lenovo-thinkpad2_trmxff.png",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880447/Image/lenovo-thinkpad1_sruite.jpg",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880447/Image/lenovo-thinkpad3_jpmlrw.jpg",
+
+            "title":"Lenovo ThinkPad P1",
+            "cpu": "2.3 GHz intel Core i7 14-core",
+            "ram" :"16GB of DDR5 RAM | 512GB SSD", 
+            "gpu" :"NVIDIA RTX A4500",
+            "refreshRate" :"60hz",
+            "os": "Windows 11 Pro",
+            "displaySize":"16 2560 x 1600 WQXGA IPS Display",
+
+            "description" : "The latest in the Lenovo Thinkpad series boasts the portability of its predecessors, with some new and improved features that make for a relaxed and smooth work experience. Despite its sleek appearance, this device is powerful and offers the best of the latest Intel vPro platform, Core H Series processors and NVIDIA graphics, meaning it can easily handle the demands of rendering and real-time visualization.The device is made of a liquid metal thermal design which ensures that it stays cool, while its Carbon-Fiber weave coveris sleek in appearance, making it discreet and professional for meetings and presentations. The 16’’ touchscreen is anti-glare and produces an advanced color quality through its X-Rite Factory Color Calibration. By correcting the RGB color, designers can confidently edit designs and communicate rendering changes. Additionally, the backlit keyboard provides clear visibility for designers working on their computer for long periods of time. Meanwhile, the 12th Generation Intel Core i7-12700H Processor ensures a smooth and efficient work experience.",
+            "usefor":"Recommend for Architecture student",
+            "pro":["Wonderful keyboard" ,
+                "Handsome 4K touch screen",
+                "Good array of ports and available 5G",
+                "Trim and light for a 16-inch laptop"
+                
+                
+            ],
+           
+            "con":["Unremarkable battery life",
+            "Mighty expensive",
+            "No OLED screen option"
+
+            
+            ],
+            "youtube" : "https://www.youtube.com/embed/BXMBvKPRsEo",
+            "shop": "Amazon",
+            "price":"$2699",
+            "location":"#"
+        },
+        {
+            "id": "7", 
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880446/Image/lenovoflex1_b92xwc.jpg",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880447/Image/lenovoflex3_qky8de.jpg",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880448/Image/lenovoflex2_zhc1kn.webp",
+
+            "title":"Lenovo Flex 5i",
+            "cpu": "Up to 11th Gen Intel® Core™ i7",
+            "ram" :"Up to 16GB", 
+            "gpu" :"NVIDIA® MX450",
+            "refreshRate" :"60hz",
+            "os": "Up to Windows 10 Pro",
+            "displaySize":"14 FHD IPS (1920 x 1080), 250 nits, 45% NTSC",
+
+            "description" : "This is the best laptop for accounting as it provides amazing computing performance, which is better than someother twice more expensive models offer. Besides, it boasts good connectivity options, has a firm, well-designedchassis and a convenient keyboard. Even though the device is quite heavy, and its 14-inch display is a bit dull,it’s still a great value for the money.",
+            "usefor":"Recommend for accounting student",
+            "pro":["Pleasant to touch, solid chassis" ,
+                "Support for touch input",
+                "Webcam shutter",
+                "Great value for money"
+                
+                
+            ],
+           
+            "con":["A dull 250-nit display",
+            "Quite heavy for such a size"
+            
+
+            
+            ],
+            "youtube" : "https://www.youtube.com/embed/cI2trtYA-a0",
+            "shop": "Amazon",
+            
+            "price":"1599$",
+            "location":""
+        },
+        {
+            "id": "8", 
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880448/Image/LGGram2_meba8c.webp",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880447/Image/LGGram1_kw4fmd.webp",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880447/Image/LGgram_mdk5vn.jpg",
+
+            "title":"LG Gram ",
+            "cpu": "11th Gen Intel® Core™ i7-1195G7",
+            "ram" :"16", 
+            "gpu" :"Integrated Graphics",
+            "refreshRate" :"60hz",
+            "os": "Up to Windows 10 Pro",
+            "displaySize":"15.6”Touchscreen IPS LCD FHD (1920 x 1080) ",
+
+            "description" : "The LG gram 15Z970 touchscreen laptop is another best laptop for accounting work. LG designed this laptop model for business people in mind. Of course,accountants fall in the category of business people. As usual, it comes bearing gifts in the form of outstanding features. For starters, it uses the famous intel core i7 processor to boost the operating speed of this laptop. That’s part of what makes it stand out. It is one of the ideal laptops for accountants.The 13.3-inch laptop is thin and lightweight by design. You can boldly carry it along with you on any trip. The resolution also produces crisp images with a 1920 x 1080 Pixels maximum resolution. With 256GB SSD, you never have to worry about storage space.",
+            "usefor":" Recommend for accounting student",
+            "pro":["Brilliant screen and colors" ,
+                "Strong processor performance",
+                "Long-lasting battery",
+                "Crazy thin and amazingly light"
+                
+                
+            ],
+           
+            "con":["Power connector feels fragile",
+            "Type-C port is only USB 3.1 Gen1"
+            ],
+            "youtube" : "https://www.youtube.com/embed/LQn4OoV4lwM",
+            "shop": "Amazon",
+            
+            "price":"1599$",
+            "location":"#"
+        },
+        {
+            "id": "9", 
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880448/Image/surface-pro7-1_pabysy.jpg",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880449/Image/surface-pro7-2_psvkxh.jpg",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880449/Image/surface-pro7-3_g4rmrf.jpg",
+
+            "title":"Microsoft Surface Pro 7",
+            "cpu": "2.4 GHz Intel Core i5 Quad-Core 11th Gen",
+            "ram" :"8GB LPDDR4X | 256GB SSD", 
+            "gpu" :"Integrated Intel Iris Xe Graphics",
+            "refreshRate" :"60hz",
+            "os": "Up to Windows 10 Pro",
+            "displaySize":"12.3'' 2736 x 1824 PixelSense Touchscreen",
+
+            "description" : " You can use this laptop as both a full-blown laptop studio and a tablet. Since it’s a touch screen,you can choose to operate it using the mouse, your fingers, or both.  You can draw, type, write and run several functions on this laptop. Then, it is incredibly lightweight. You can carry it all day without feeling any muscle strain. With a display resolution of 2736 x 1824, your eyes are in for a treat.With a single charge, you’ll get 10.5 hours of battery life. That way, you can get more done before you start to worry about charging the laptop. ",
+            "usefor":" Recommend for accounting student",
+            "pro":["Robust battery life" ,
+                "Sharp display",
+                "Includes USB-C",
+                "Snappy Intel 'Ice Lake' processor"
+              
+            ],
+           
+            "con":["Just two ports, and no Thunderbolt support",
+            "Keyboard still sold separately"
+            
+
+            
+            ],
+            "youtube" : "https://www.youtube.com/embed/3YT87jwNoaA&t=30s",
+            "shop": "Amazon",
+            
+            "price":"$669",
+            "location":""
+        },
+        {
+            "id": "10", 
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880449/Image/surfacepro9-1_okiwoz.jpg",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880449/Image/surfacepro9-2_n0gpsp.jpg",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880449/Image/surfacepro9-3_qsn3so.jpg",
+
+            "title":"Microsoft Surface Pro 9",
+            "cpu": "12th Gen Intel Core i5-1235U",
+            "ram" :"8GB LPDDR5 RAM", 
+            "gpu" :"Intel Iris Xe Graphics",
+            "refreshRate" :"60hz",
+            "os": "Windows 10 Pro",
+            "displaySize":"Screen: 13-inch PixelSense Flow Display Resolution: 2880 X 1920 (267 PPI)",
+
+            "description" : " Portable, lightweight, compact, the newly-released Microsoft Surface Pro 9 is ready to support an architect’s tasks no matter the workspace. With a 12th Gen Intel Core processor and 256 GB of flash memory,the device is prepared for the dynamic cross-application work of designers. This 2-in-1 laptop boasts a 15.5 hour battery life and weighs a mere 1.90 lbs, making it a convenient and reliable device to transport and work on while commuting. Designers can leverage the edge-to-edge 13 inch PixelSense touchscreen for their real-time visualizations by pairing the Surface Slim Pen with the device. This stylus instrument is perfect for those designers who prefer hand drawing and note taking at the conceptual stage. They can draw by hand while leveraging the capabilities of a computer device all in one go. And fora more traditional style of computer work, the Microsoft Surface Pro 9 can be paired with the Surface Pro Keyboard when needed.",
+            "usefor":" Recommend for Computer Science student ",
+            "pro":["SQ3 is a solid alternative" ,
+                "Type Cover keyboard is excellent",
+                "High resolution webcam",
+                "New colors look great"
+                
+                
+            ],
+           
+            "con":["Upgrades still too expensive",
+            "Limited performance improvements",
+            "No headphone jack "
+            
+
+            
+            ],
+            "youtube" : "https://www.youtube.com/embed/Z0XggU4jXvo",
+            "shop": "Amazon",
+            
+            "price":"$869+",
+            "location":"#"
+        },
+        {
+            "id": "11", 
+            "img1" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880448/Image/surfacebook2-1_ghsn93.jpg",
+            "img2" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880448/Image/surfacebook2-3_gwxkyd.jpg",
+            "img3" :"https://res.cloudinary.com/dboveomjz/image/upload/v1674880448/Image/surfacebook2-2_rfgt4a.png",
+
+            "title":"Microsoft Surface Book 2",
+            "cpu": "7th Gen Intel® Core™ i5-7300U dual-core processor, 3.5GHz Max Turbo",
+            "ram" :"8GB or 16GB RAM 1866Mhz LPDDR3", 
+            "gpu" :"Intel® HD Graphics 620 integrated GPU (on Intel® i5-7300U model)",
+            "refreshRate" :"60hz",
+            "os": "Windows 10 Pro",
+            "displaySize":"3000 x 2000 (267 PPI), 10 point multi-touch G5",
+
+            "description" : "The Microsoft Surface Book 2 is a versatile laptop that any computer science student should consider. This representative from Microsoft is not simply a laptop. You can also use a device like a tablet or a mobile studio. Combined with the stylus, you can work with the most flexibility anywhere, anytime. This laptop model also impresses with a series of advantages that are very good for your study and work. Some of them can have a battery life of up to 17 hours, a touch screen, and support for many connection ports.",
+            "usefor":" Recommend for Computer Science student",
+            "pro":["Great battery life" ,
+                "Comfortable input devices",
+                "A PC that is nearly capable of everythingm",
+                "Excellent keyboard and trackpad",
+                "Fanless design",
+                "Gorgeous design",
+                "Fanless design",
+                "Decent entry-level gaming performance"
+              
+            ],
+           
+            "con":["Lacks Thunderbolt 3",
+            "It's rather heavy",
+            "No Surface Pen included, Expensive"
+            ],
+            "youtube" : "https://www.youtube.com/embed/tUDZQcwvrXo",
+            "shop": "Amazon",
+            
+            "price":"$1887",
+            "location":""
         }
+        
+
+
         
     ],
 
     "accessories":[
         {
             "id" : "1",
-            "name" :"Logitech",
-            "description" : "this  product  is  best for programer and  designer",
+            "brand" :"Logitech",
+            "description" : "This version of the K380 has a macOS-specific layout, so the Fn, Control, option, and command keys are where Mac  users expect. It’s otherwise identical to the standard K380.",
+            "user" :"Office",
             "price":"59$"
-
-    
         },
         {
             "id" : "2",
-            "name" :"Razer",
-            "description" : "this  product  is  best for programer and  designer",
+            "brand" :"MSI",
+            "description" : "15 month battery ,scroll wheel, side grips for control, travel friendly, blue LED, powerful 1600 DPI optical sensor, 11 compatible.",
+            "price":"30$"
+        },
+        {
+            "id" : "3",
+            "brand" :"ASUS",
+            "description" : "15 month battery ,scroll wheel, side grips for control, travel friendly, blue LED, powerful 1600 DPI optical sensor, 11 compatible.",
+            "price":"30$"
+        },
+        {
+            "id" : "4",
+            "brand" :"Bravo",
+            "description" : "15 month battery ,scroll wheel, side grips for control, travel friendly, blue LED, powerful 1600 DPI optical sensor, 11 compatible.",
+            "price":"30$"
+        },
+        {
+            "id" : "5",
+            "brand" :"Lenovo",
+            "description" : "15 month battery ,scroll wheel, side grips for control, travel friendly, blue LED, powerful 1600 DPI optical sensor, 11 compatible.",
             "price":"30$"
         }
 
