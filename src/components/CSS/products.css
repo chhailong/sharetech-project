@@ -1,0 +1,127 @@
+
+.row .col4 {
+  margin-top: 20px;
+    display: flex ;
+    flex-direction: column;
+    width: 490px;
+    
+    
+   }
+   .row .col4 img {
+    width: 480px;
+    height: 350px;
+    border-radius: 5px;
+  
+   }
+
+.row .col4  table{
+ 
+  font-size: 15px;
+  margin: 10px;
+  margin-left: 40px;
+  text-align: left;
+ 
+  
+ }
+ /* .row .col4  table tr td{
+  margin-top: 10px;
+
+ 
+ } */
+
+  .row h3{
+    color: brown;
+    font-weight: bold;
+  }
+  .row p{
+    font-size: 20px;
+    color: rgb(103, 103, 107);
+    font-weight: 300;
+
+  }
+
+  .Text h2{
+    font-weight: bold;
+  }
+  .Text p{
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+
+  section .Text{
+    width: 60%;
+    height: auto;
+
+  }
+
+
+
+  .row .col6 {
+    display: flex ;
+    flex-direction: column;
+    width: 385px;
+    margin-top: 20px;
+     margin-left: 10px;
+     border-radius: 10px;
+     border:2px  solid #000000 ;
+
+     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   }
+   .row .col4 table tbody tr{
+    margin-left: 50px;
+   }
+
+   embed {
+    width: 775px;
+    height: 480px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   }
+   
+   table tr ,th {
+    width: 50%;
+   }
+
+   .store-map h2{
+    font-weight: bold;
+   }
+
+   .btn a{
+    text-decoration: none;
+   }
+
+   @media screen and (max-width: 960px) {
+
+    .container{
+      width:100%;
+    }
+  
+    #description-item .Text h2 {
+      /* display: flex; */
+      width: 400px;
+      display: flex;
+     
+      flex-wrap: wrap;
+      position: relative;
+
+     
+    }
+    #specification .row .col6{
+      display: flex;
+      width: 400px;
+      flex-wrap: wrap;
+    }
+    embed {
+      width: 400px;
+      height: 300px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     }
+
+
+
+
+
+    
+
+
+   }

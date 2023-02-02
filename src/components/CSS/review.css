@@ -1,0 +1,12 @@
+.review{
+    background-color: aqua;
+    text-align: center;
+}
+.dell  {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+   flex-direction: column;
+    text-decoration: none ;
+    
+}
