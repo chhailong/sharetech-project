@@ -13,6 +13,7 @@ import Home from './components/JS/Pages/Home';
 import Review from './components/JS/Pages/Review.page';
 import LaptopDetails from './components/JS/laptopDetails';
 import AccessoriesDetails from './components/JS/accessoriesDetails';
+>>>>>>> long_main
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Home from './components/Pages/Home';
 import Review from './components/Pages/Review';
