@@ -1,6 +1,4 @@
 import React from "react";
-import CardCol from "../JS/CardCol";
-
 import Filter from "../JS/Filter";
 
 function Recommend() {
@@ -12,7 +10,9 @@ function Recommend() {
             <Filter />
           </div>
           <div class="col-lg-9">
-            <CardCol />
+            <ul>
+              
+            </ul>
           </div>
         </div>
       </div>

@@ -1,90 +1,16 @@
 import React from "react";
-import "../CSS/carousel.css";
+
+import "../CSS/cards.css";
 
 function Cards() {
+
   return (
     <>
       <div class="card">
-        <div class="image-wrapper">
-          <img src={img1} class="card-img-top" alt="" />
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
+        <div class="image"><img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%', height:'100%'}} /></div>
+        <h2 class="title">Cool Chair</h2>
+        <span class="price">$100</span>
       </div>
-
-      <div class="card">
-        <div className="image-wrapper">
-          <img src={img2} class="card-img-top" alt="" />
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div className="image-wrapper">
-          <img src={img3} class="card-img-top" alt="" />
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div className="image-wrapper">
-          <img src={img4} class="card-img-top" alt="" />
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div className="image-wrapper">
-          <img src={img5} class="card-img-top" alt="" />
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-
-      {/** Card in row*/}
     </>
   );
 }
