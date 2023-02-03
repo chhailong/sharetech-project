@@ -1,18 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import "../CSS/home.css";
 function Hero() {
   return (
     <>
-        <div class="p-5 text-center bg-image rounded-3 mb-5 mt-5 text-white" 
-            style={{backgroundImage: `url(${'https://i.picsum.photos/id/555/500/600.jpg?hmac=syltAxId5ErV3ucxD5BcTvIC4vLPoFynqUg4tFYuQu8'})`,
+        <div className="p-5 text-center bg-image  mb-5 text-white" 
+            style={{backgroundImage: `url(${'https://res.cloudinary.com/dboveomjz/image/upload/v1675446669/Accessories/Hero1_2_m3cyzj.jpg'})`,
             height:400
             }}
         > 
-            <div class="container p-5">
-                <h1 class="display-4 fw-bold">Punny headline</h1>
-                <p class="lead fw-bold">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-                <Link class="btn btn-primary" to="/review">See More</Link>
+            <div className="container p-5 text-">
+                <h1 className="display-4 fw-bold"> Explore new Technology </h1>
+                <p className="lead fw-bold">Read, Learn, Share new technology with the guideline and Recommendation</p>
+                
+              <div className="col-md-12 text-center pt-4 pb-4">
+                <Link className="btn btn-primary" to="/review">See More</Link>
+              </div>  
+               
             </div>
         </div>    
     </>

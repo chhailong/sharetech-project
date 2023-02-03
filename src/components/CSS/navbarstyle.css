@@ -2,16 +2,24 @@ nav .navbar-brand {
   margin-left: 50px;
   font-size: 30px;
   font-weight: bold ;
+  color: #ffffff;
   
 }
 nav .navbar-collapse .navbar-nav{
+
   margin-right: 50px;
   font-weight: 600;
   font-size: 20px;
-  
+}
+nav .navbar-collapse .navbar-nav .nav-item .nav-link{
+  color: #ffffff;
+ 
+}
+nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+  color: #000000;
+ 
 }
 nav .navbar-collapse .btn {
-  margin-right: 60px;
+  margin-right: 60px ;
  
-  
 }

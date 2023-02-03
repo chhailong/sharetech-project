@@ -1,7 +1,7 @@
 
-import "../CSS/review.css" ; 
 
-// import "../CSS/cards.css" ; 
+
+import "../CSS/cards.css" ; 
 
 import React, { useState ,useEffect } from 'react';
 import { Link } from 'react-router-dom';
