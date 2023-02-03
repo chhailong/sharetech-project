@@ -60,8 +60,10 @@ import "../CSS/accessories.css" ;
                     
             
                 </div>
+                <br />
+                <br />
 
-                  <div className="related">
+                  {/* <div className="related">
                       <br />
                       <br />
                     <h2>You May Also Be Interested In</h2>
@@ -69,7 +71,7 @@ import "../CSS/accessories.css" ;
 
                     </div>
     
-                </div>
+                </div> */}
                 </div>
                     
                 ))
