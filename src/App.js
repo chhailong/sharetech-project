@@ -16,12 +16,13 @@ function App() {
       <Router>
         <div className="App">
          <Navbar/>
+       
         <Routes>
 
           <Route exact path="/" element={<Home/>}></Route>
           <Route  path="/review" element={<Review/>}></Route>
           <Route  path="/recommend" element={<Recommend/>}></Route>
-          {/* <Route  path={"/products/laptops/detail/" +1} element ={ <LaptopDetails/>}> </Route> */}
+
           <Route  path={"/products/laptops/detail/:id"} element ={ <LaptopDetails/>}></Route>
           <Route  path={"/products/accessories/detail/:id"} element ={ <AccessoriesDetails/>}></Route>
            

@@ -8,7 +8,7 @@ function Navbar (){
  
   return(
     <>
-      <nav className="navbar navbar-expand-lg bg-info p-3">
+      <nav className="navbar navbar-expand-lg "style={{backgroundColor:"#282c37"}}>
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">ShareTech
 
