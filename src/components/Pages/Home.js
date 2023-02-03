@@ -30,17 +30,28 @@ function Home() {
       <div className="container">
         {
           list.map((show) =>(
-            <Link to = {"/products/laptops/detail/"+2} key={show.id} >
-                <div class="card" >
+            <div className="container">
+               <Link to = {"/products/laptops/detail/"+2} key={show.id} >
+              <div className="Home">
+              <div class="card" >
                   <img src={show.img1}class="card-img-top " alt="pic1"/>
-                      <div class="card-body">
                       <h4 class="card-title">{show.title}</h4>
-                        <p class="card-price">{show.price}</p>
-                      </div>
-                    </div>
-              
-  
+                    <p class="card-price">{show.price}</p>
+                      
+                </div>
+
+              </div>
             </Link>
+            <br />
+         
+
+              <div class="text-start">
+              <h2>Why We Pick It</h2>
+                <p >{show.description}</p>
+              </div>
+
+            </div>
+           
             
           ))
 
