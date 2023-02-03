@@ -76,7 +76,7 @@
             "displaySize":"13.3",
 
             "description" : "As a computer science student, you will have to store a lot of data related to ongoing projects, class lectures, and much other related information. With such a large file volume, a typical laptop will take a long time to open heavy files. With Dell Inspiron 17 3793, you will not have to face this situation. The product has a 512GB solid-state drive, which has more storage space and faster data access than traditional hard drives. This device supports hard drive upgrades with a maximum capacity of up to 1TB.",
-            "usefor":" Recommend for Architecture student",
+            "usefor":" Recommend for computer science student",
             "pro":["Large storage capacity." ,
                 "Easy to upgrade hard drive",
                 "Intel Core i5-1035G1 processor.",
@@ -231,7 +231,7 @@
             "youtube" : "https://www.youtube.com/embed/cI2trtYA-a0",
             "shop": "Amazon",
             
-            "price":"1599$",
+            "price":"690$",
             "location":""
         },
         {
@@ -249,7 +249,7 @@
             "displaySize":"15.6”Touchscreen IPS LCD FHD (1920 x 1080) ",
 
             "description" : "The LG gram 15Z970 touchscreen laptop is another best laptop for accounting work. LG designed this laptop model for business people in mind. Of course,accountants fall in the category of business people. As usual, it comes bearing gifts in the form of outstanding features. For starters, it uses the famous intel core i7 processor to boost the operating speed of this laptop. That’s part of what makes it stand out. It is one of the ideal laptops for accountants.The 13.3-inch laptop is thin and lightweight by design. You can boldly carry it along with you on any trip. The resolution also produces crisp images with a 1920 x 1080 Pixels maximum resolution. With 256GB SSD, you never have to worry about storage space.",
-            "usefor":" Recommend for accounting student",
+            "usefor":" Recommend for Architecture student",
             "pro":["Brilliant screen and colors" ,
                 "Strong processor performance",
                 "Long-lasting battery",
@@ -378,42 +378,59 @@
         }
         
 
-
         
     ],
 
     "accessories":[
         {
             "id" : "1",
-            "brand" :"Logitech",
-            "description" : "This version of the K380 has a macOS-specific layout, so the Fn, Control, option, and command keys are where Mac  users expect. It’s otherwise identical to the standard K380.",
-            "user" :"Office",
-            "price":"59$"
+            "brand" :"Logitech G305 ",
+            "img" :"https://res.cloudinary.com/dboveomjz/image/upload/v1675395184/Accessories/Logitech-G305_hqd5t5.jpg",
+            "description" : "Hero 12 sensor, 12000 DPI, lightweight, 6 programmable buttons, 250h battery life, On-board memory, PC/Mac",
+            "user" :"Recommend for IT, design, architecture, office",
+            "price":"40.99$"
         },
         {
             "id" : "2",
-            "brand" :"MSI",
-            "description" : "15 month battery ,scroll wheel, side grips for control, travel friendly, blue LED, powerful 1600 DPI optical sensor, 11 compatible.",
-            "price":"30$"
+            "brand" :"Logitech MK270 wireless combo keyboard + mouse",
+            "img" :"https://res.cloudinary.com/dboveomjz/image/upload/v1675395184/Accessories/Logitech-MK270_qk5iyi.jpg",
+            "description" : "Wireless 2.4 GHz RF connectivity, full size keyboard, 3 button optical mouse, dedicated media key, compact design, spill resistant keyboard, include USB wireless receiver, work with window 10/11 and chrome OS.",
+            "user" :"Recommend for design, office",
+            "price":"22.99$"
         },
         {
             "id" : "3",
-            "brand" :"ASUS",
-            "description" : "15 month battery ,scroll wheel, side grips for control, travel friendly, blue LED, powerful 1600 DPI optical sensor, 11 compatible.",
-            "price":"30$"
+            "brand" :"Logitech K380 Multi-device for Mac",
+            "img" :"https://res.cloudinary.com/dboveomjz/image/upload/v1675395184/Accessories/logitech-k380-mac_rcfeql.jpg",
+            "description" : "This version of the K380 has a macOS-specific layout, so the Fn, Control, option, and command keys are where Mac  users expect. It’s otherwise identical to the standard K380.",
+            "user" :"Recommend for IT, design, office",
+            "price":"38$"
         },
         {
             "id" : "4",
-            "brand" :"Bravo",
-            "description" : "15 month battery ,scroll wheel, side grips for control, travel friendly, blue LED, powerful 1600 DPI optical sensor, 11 compatible.",
+            "brand" :"Logitech K380 Multi-device ",
+            "img" :"https://res.cloudinary.com/dboveomjz/image/upload/v1675395184/Accessories/logitech-k380_er7172.jpg",
+            "description" : "Comfortable to type on, compact, and blessed with long battery life. Plus it can pair with and switch between up to three Bluetooth devices.",
+            "user" :"Recommend for IT, office",
             "price":"30$"
         },
         {
             "id" : "5",
-            "brand" :"Lenovo",
+            "brand" :"Scorpion marvo G945 RGB",
+            "img" :"https://res.cloudinary.com/dboveomjz/image/upload/v1675395184/Accessories/scorpion-marvo-g945_ghkaa0.jpg",
+            "description" : "Movement resolution 10000 DPI, button quantity 9, scroll type wheel",
+            "user" :"Recommend for IT, office and Gaming",
+            "price":"40$"
+        },
+        {
+            "id" : "6",
+            "brand" :"HP Wireless Mouse X3000 G2",
+            "img" :"https://res.cloudinary.com/dboveomjz/image/upload/v1675395184/Accessories/hp-x3000-G2_mjngln.jpg",
             "description" : "15 month battery ,scroll wheel, side grips for control, travel friendly, blue LED, powerful 1600 DPI optical sensor, 11 compatible.",
-            "price":"30$"
+            "user" :"Recommend for office",
+            "price":"13.99$"
         }
+     
 
     ]
 }

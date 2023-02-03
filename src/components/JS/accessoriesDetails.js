@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../CSS/accessories.css" ; 
  const AccessoriesDetails = () => {
     const { id } = useParams();
@@ -21,8 +22,6 @@ import "../CSS/accessories.css" ;
     getProuduct();
     console.log(items);
   }, []);
-
-
   return (
     <>
 
@@ -34,35 +33,42 @@ import "../CSS/accessories.css" ;
                         <div class="row">
                     <div class="col">
                         
-                        <img src="https://fastly.picsum.photos/id/828/400/300.jpg?hmac=UhSMxxeXSsUpgyeZ4M9PSYbB7yVstarD0GP7v5F5_ys" alt="..."/>
+                        <img src={show.img} alt="picture"/>
                     </div>
                     <div class="col">
                     <table className='table'>
                             <h2>{show.brand}</h2>
-                            
-        
+                          
                             <tr>
-                              <td>About Item :</td>
+                              <td className="main">About Item </td>
                               <td><span>{show.description}</span>
                 
                               </td>
                             </tr>
                             <tr>
-                              <td>Who Use It</td>
+                              <td className="main">Who Use It</td>
                               <td><span>{show.user}</span></td>
                             </tr>
                             <tr>
-                              <td>Price</td>
+                              <td className="main">Price</td>
                               <td><span>{show.price}</span></td>
                             </tr>
         
                           </table>
         
                     </div>
+                    
             
                 </div>
-                    <div className="related">
+
+                  <div className="related">
+                      <br />
+                      <br />
                     <h2>You May Also Be Interested In</h2>
+                    <div>
+
+                    </div>
+    
                 </div>
                 </div>
                     

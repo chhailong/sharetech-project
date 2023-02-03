@@ -63,21 +63,21 @@ const LaptopDetails = () => {
                         <img
                           src={show.img1}
                           className="d-block w-100"
-                          alt="..."
+                          alt="picture"
                         />
                       </div>
                       <div className="carousel-item ">
                         <img
                           src={show.img2}
                           className="d-block w-100"
-                          alt="..."
+                          alt="picture"
                         />
                       </div>
                       <div className="carousel-item ">
                         <img
                           src={show.img3}
                           className="d-block w-100"
-                          alt="..."
+                          alt="picture"
                         />
                       </div>
                     </div>
@@ -111,29 +111,29 @@ const LaptopDetails = () => {
                   <h2>{show.title}</h2>
 
                   <table>
-                    <h4>Key Fealtures</h4>
+                    <h4>Fealtures</h4>
                     <tr>
-                      <td>CPU</td>
+                      <td className="bolds">CPU</td>
                       <td>{show.cpu}</td>
                     </tr>
                     <tr>
-                      <td>RAM</td>
+                      <td className="bolds">RAM</td>
                       <td>{show.ram}</td>
                     </tr>
                     <tr>
-                      <td>GPU</td>
+                      <td className="bolds">GPU</td>
                       <td>{show.gpu}</td>
                     </tr>
                     <tr>
-                      <td>Refresh Rate</td>
+                      <td className="bolds">Refresh Rate</td>
                       <td>{show.refreshRate}</td>
                     </tr>
                     <tr>
-                      <td>Operating</td>
+                      <td className="bolds">Operating</td>
                       <td>{show.os}</td>
                     </tr>
                     <tr>
-                      <td>Display Size</td>
+                      <td className="bolds">Display Size</td>
                       <td>{show.displaySize}</td>
                     </tr>
                   </table>

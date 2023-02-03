@@ -1,10 +1,10 @@
 
+
 .row .col4 {
   margin-top: 20px;
     display: flex ;
     flex-direction: column;
     width: 490px;
-    
     
    }
    .row .col4 img {
@@ -23,11 +23,10 @@
  
   
  }
- /* .row .col4  table tr td{
-  margin-top: 10px;
+ .row .col4  table tr .bolds{
+  font-weight: bold;
+ }
 
- 
- } */
 
   .row h3{
     color: brown;
@@ -55,8 +54,6 @@
 
   }
 
-
-
   .row .col6 {
     display: flex ;
     flex-direction: column;
@@ -79,7 +76,7 @@
    }
    
    table tr ,th {
-    width: 50%;
+    width: 100%;
    }
 
    .store-map h2{
