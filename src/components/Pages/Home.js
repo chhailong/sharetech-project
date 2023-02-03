@@ -10,7 +10,7 @@ function Home() {
         // get laptop
         const  [list, showList] = useState([]) ; 
         const listLaptop =  () => {
-          fetch('http://localhost:3333/product/laptops/2')
+          fetch('http://localhost:3333/product/laptops/4')
 
           .then((response) => response.json())
           .then((json) => {
@@ -31,7 +31,8 @@ function Home() {
         {
           list.map((show) =>(
             <div className="container">
-               <Link to = {"/products/laptops/detail/"+2} key={show.id} >
+              
+               <Link to = {"/products/laptops/detail/"+4} key={show.id} >
               <div className="Home">
               <div class="card" >
                   <img src={show.img1}class="card-img-top " alt="pic1"/>
@@ -46,7 +47,7 @@ function Home() {
          
 
               <div class="text-start">
-              <h2>Why We Pick It</h2>
+              <h2>Why We Picked It</h2>
                 <p >{show.description}</p>
               </div>
 
