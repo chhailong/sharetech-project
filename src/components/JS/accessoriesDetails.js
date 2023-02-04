@@ -58,20 +58,8 @@ import "../CSS/accessories.css" ;
         
                     </div>
                     
-            
                 </div>
                 <br />
-                <br />
-
-                  {/* <div className="related">
-                      <br />
-                      <br />
-                    <h2>You May Also Be Interested In</h2>
-                    <div>
-
-                    </div>
-    
-                </div> */}
                 </div>
                     
                 ))
