@@ -14,6 +14,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use("/product", dataRoute );
 
 app.listen(3333, () => {
-    console.log("port 3333 will show api")
+    console.log("Api running on port 3333!!")
 })
 

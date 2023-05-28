@@ -27,7 +27,7 @@ function App() {
           <Route  path={"/products/accessories/detail/:id"} element ={ <AccessoriesDetails/>}></Route>
            
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
         </div>
       </Router>
     </>

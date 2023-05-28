@@ -5,8 +5,8 @@ import CardTwo from "../JS/CardTwo";
 import "../../App.css"
 import React, { useState ,useEffect } from 'react';
 import { Link } from 'react-router-dom';
-const Review = () =>{
-  
+const Review = () => {
+
     return (
         <>
         <div className="container">

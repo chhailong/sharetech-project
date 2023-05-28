@@ -13,7 +13,7 @@ function Footer(){
                 <li class="list-inline-item"><a href="#">Terms</a></li>
                 <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
             </ul>
-            <p class="copyright"> Copyright © 2023| ShareTech </p>
+            <p class="copyright"> Copyright © 2023| ShareTech</p>
             </footer>
         </div>         
         </>

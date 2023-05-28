@@ -6,7 +6,7 @@ import "../CSS/cards.css" ;
 import React, { useState ,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const CardTwo = () => {
+const CardTwo = (props) => {
 
       //  get Accessories
       const  [list1, showList1] = useState([]) ; 
@@ -22,6 +22,7 @@ const CardTwo = () => {
       useEffect(() =>{
        
         listAccessories() ; 
+        
       } ,[]) ;
 
   return (
@@ -40,9 +41,11 @@ const CardTwo = () => {
                     </div>
             </Link>
                 ))
-
                 }
+  
       </div>
+
+
     </>
   );
 }
